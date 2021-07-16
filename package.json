@@ -12,8 +12,16 @@
 	},
 	"author": "Max Kieltyka",
 	"license": "MIT",
+	"type": "module",
 	"bugs": {
 		"url": "https://github.com/mxkyb/telegram-camping-bot/issues"
 	},
-	"homepage": "https://github.com/mxkyb/telegram-camping-bot#readme"
+	"homepage": "https://github.com/mxkyb/telegram-camping-bot#readme",
+	"dependencies": {
+		"dotenv": "^10.0.0",
+		"node-fetch": "^2.6.1",
+		"node-html-parser": "^4.1.0",
+		"node-telegram-bot-api": "^0.53.0",
+		"timezone-support": "^2.0.2"
+	}
 }
