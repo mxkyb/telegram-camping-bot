@@ -1,3 +1,5 @@
+import {findTimeZone, getZonedTime} from 'timezone-support';
+
 import * as dotenv from 'dotenv';
 
 import {initBot, sendStatus} from './bot.js';
@@ -26,6 +28,13 @@ updateStore({
 });
 
 const checkCampingSite = async () => {
+    const nativeDate = new Date();
+    const berlin = findTimeZone('Europe/Berlin');
+    const dt = getZonedTime(nativeDate, berlin);
+    console.log(
+        `[${dt.day}.${dt.month}-${dt.hours}:${dt.minutes}] Check new Data`,
+    );
+
     const data = await searchBookings();
 
     const result = updateStore(data);
