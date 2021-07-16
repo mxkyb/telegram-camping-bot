@@ -32,7 +32,7 @@ const checkCampingSite = async () => {
     const berlin = findTimeZone('Europe/Berlin');
     const dt = getZonedTime(nativeDate, berlin);
     console.log(
-        `[${dt.day}.${dt.month}-${dt.hours}:${dt.minutes}] Check new Data`,
+        `[${dt.day}.${dt.month}-${dt.hours}:${dt.minutes}:${dt.seconds}] Check new Data`,
     );
 
     const data = await searchBookings();
