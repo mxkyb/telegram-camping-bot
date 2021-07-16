@@ -1,0 +1,19 @@
+{
+	"name": "telegram-camping-bot",
+	"version": "0.0.1",
+	"description": "Telegram camping bot",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mxkyb/telegram-camping-bot.git"
+	},
+	"author": "Max Kieltyka",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/mxkyb/telegram-camping-bot/issues"
+	},
+	"homepage": "https://github.com/mxkyb/telegram-camping-bot#readme"
+}
