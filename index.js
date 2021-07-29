@@ -17,10 +17,6 @@ const anreise = '16.08.2021';
 const abreise = '23.08.2021';
 const tage = '7';
 
-// const anreise = '08.10.2021';
-// const abreise = '15.10.2021';
-// const tage = '7';
-
 updateStore({
     anreise,
     abreise,
